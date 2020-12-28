@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:candy_app/Screen/SCLogin.dart';
+import 'package:candy_app/Screen/sc_login.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

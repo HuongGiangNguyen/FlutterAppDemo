@@ -1,11 +1,10 @@
-import 'package:candy_app/until/Account.dart';
+import 'package:candy_app/until/account.dart';
 import 'package:edge_alert/edge_alert.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:candy_app/until/Sharepreferences.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import 'package:candy_app/until/sharepreferences.dart';
 
-import 'SCLogin.dart';
+import 'sc_login.dart';
 
 class ScRegister extends StatefulWidget {
   @override

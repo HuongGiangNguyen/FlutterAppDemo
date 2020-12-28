@@ -1,6 +1,4 @@
-import 'dart:math';
-
-import 'package:candy_app/Screen/ScEditprofile.dart';
+import 'package:candy_app/Screen/sc_editprofile.dart';
 import 'package:candy_app/until/drawer.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

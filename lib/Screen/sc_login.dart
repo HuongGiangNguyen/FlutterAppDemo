@@ -1,10 +1,11 @@
-import 'package:candy_app/Screen/MainSc.dart';
-import 'package:candy_app/Screen/ScRegister.dart';
-import 'package:candy_app/until/Account.dart';
-import 'package:candy_app/until/Sharepreferences.dart';
+import 'package:candy_app/Screen/sc_register.dart';
+import 'package:candy_app/until/account.dart';
+import 'package:candy_app/until/sharepreferences.dart';
 import 'package:edge_alert/edge_alert.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import 'sc_main.dart';
 
 class SCLogin extends StatefulWidget {
   String email;
@@ -116,10 +117,7 @@ class _SCLoginState extends State<SCLogin> {
                     acc.password = controllerPassword.value.text;
                     for (var i = 0; i < lstAccount.length; i++) {
                       if (acc.email == lstAccount[i].email && acc.password == lstAccount[i].password) {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(builder: (context) => MainSc()),
-                        );
+                        Navigator.pushNamed(context, '/mainsc');
                         break;
                       } else {
                         EdgeAlert.show(context, title: 'Note', description: 'Tai khoan khong ton tai', gravity: EdgeAlert.TOP);

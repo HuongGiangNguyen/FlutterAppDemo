@@ -1,6 +1,5 @@
-import 'package:candy_app/Screen/MainSc.dart';
-import 'package:candy_app/Screen/ScTodo.dart';
-import 'package:candy_app/until/Sharepreferences.dart';
+import 'package:candy_app/Screen/sc_main.dart';
+import 'package:candy_app/until/sharepreferences.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

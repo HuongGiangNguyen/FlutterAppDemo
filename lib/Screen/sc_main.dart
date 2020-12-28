@@ -1,15 +1,13 @@
-import 'package:bottom_navy_bar/bottom_navy_bar.dart';
-import 'package:candy_app/Screen/SCLogin.dart';
-import 'package:candy_app/Screen/ScDcheduler.dart';
-import 'package:candy_app/Screen/ScHome.dart';
-import 'package:candy_app/Screen/ScNotification.dart';
-import 'package:candy_app/Screen/ScProfile.dart';
-import 'package:candy_app/Screen/ScRegister.dart';
-import 'package:candy_app/Screen/ScTodo.dart';
-import 'package:candy_app/until/drawer.dart';
+import 'package:candy_app/Screen/sc_scheduler.dart';
+
+import 'package:candy_app/Screen/sc_notification.dart';
+import 'package:candy_app/Screen/sc_profile.dart';
+
+import 'package:candy_app/Screen/sc_todo.dart';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:candy_app/Screen/ScNewTask.dart';
+import 'package:candy_app/Screen/sc_newtask.dart';
 
 class MainSc extends StatefulWidget {
   @override

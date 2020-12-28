@@ -1,4 +1,4 @@
-import 'package:candy_app/until/Account.dart';
+import 'package:candy_app/until/account.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:convert';
 

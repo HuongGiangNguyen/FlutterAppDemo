@@ -1,4 +1,3 @@
-import 'package:candy_app/Screen/ScProfile.dart';
 import 'package:candy_app/until/drawer.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
