@@ -1,6 +1,6 @@
 # candy_app
 
-App Test
+My flutter repositoty on github
 
 ## Getting Started
 
